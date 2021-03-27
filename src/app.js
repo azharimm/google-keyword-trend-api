@@ -16,8 +16,9 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", indexController.index);
-app.get("/search", indexController.search);
-
+app.get("/trends", indexController.trends);
+app.get("/trends/:country", indexController.countryTrends);
+app.get("/countries", indexController.countries);
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
