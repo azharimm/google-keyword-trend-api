@@ -2,7 +2,7 @@
 
 ## 1. Trends
 ```
-[ENDPOINT] /location
+[ENDPOINT] /trends
 ```
 ```
 [EXAMPLE] http://api-google-keyword-trends.herokuapp.com/trends
